@@ -1,4 +1,4 @@
-enabled_lsps = { "rust_analyzer", "nixd" }
+enabled_lsps = { "rust_analyzer", "nixd", "clangd" }
 
 return {
   "neovim/nvim-lspconfig",

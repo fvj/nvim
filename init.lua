@@ -3,6 +3,7 @@ vim.g.maplocalleader = '\\'
 
 vim.opt.mouse = ""
 vim.opt.shiftwidth = 2
+vim.opt.signcolumn = 'yes:2'
 
 require('custom.lazy')
 
