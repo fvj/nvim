@@ -1,4 +1,4 @@
-enabled_lsps = { "rust_analyzer", "nixd", "clangd" }
+enabled_lsps = { "rust_analyzer", "clangd", "kotlin_language_server", "pyright", "vtsls", "zls" }
 
 return {
   "neovim/nvim-lspconfig",
